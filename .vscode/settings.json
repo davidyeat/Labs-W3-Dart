@@ -1,0 +1,96 @@
+{
+  // =========================================================
+  // AI DISABLE SETTINGS
+  // =========================================================
+
+  "chat.disableAIFeatures": false,
+  
+
+  // Absolutely no AI inline suggestions
+  "editor.inlineSuggest.enabled": false,
+
+  // Do not show AI-style suggestion previews
+  "editor.suggest.preview": false,
+
+  // COPILOT — INLINE / NEXT EDIT / CODE ACTIONS
+  "github.copilot.enable": { "*": false },
+  "github.copilot.nextEditSuggestions.enabled": false,
+  "github.copilot.nextEditSuggestions.fixes": false,
+  "github.copilot.editor.enableCodeActions": false,
+  "github.copilot.renameSuggestions.triggerAutomatically": false,
+  "github.copilot.chat.reviewSelection.enabled": false,
+  "github.copilot.chat.reviewAgent.enabled": false,
+  "github.copilot.chat.generateTests.codeLens": false,
+  "notebook.experimental.generate": false,
+
+  // CHAT / UI ENTRY POINTS
+  "chat.commandCenter.enabled": false,
+  "chat.viewTitle.enabled": false,
+  "chat.viewWelcome.enabled": false,
+  "chat.viewSessions.enabled": false,
+  "chat.agentsControl.enabled": false,
+  "chat.unifiedAgentsBar.enabled": false,
+  "chat.allowAnonymousAccess": false,
+  "workbench.settings.showAISearchToggle": false,
+  "search.searchView.semanticSearchBehavior": "manual",
+  "search.searchView.keywordSuggestions": false,
+  
+
+  // INLINE CHAT
+  "inlineChat.affordance": "off",
+  "inlineChat.lineEmptyHint": false,
+  "inlineChat.lineNaturalLanguageHint": false,
+  "inlineChat.holdToSpeech": false,
+
+  // AGENTS / AGENT HOST / HARNESSES / SESSIONS
+  "chat.agent.enabled": false,
+  "chat.agent.maxRequests": 0,
+  "chat.editor.preferCopilotHarness": false,
+  "chat.agentHost.claudeAgent.enabled": false,
+  "chat.agentHost.codexAgent.enabled": false,
+  "github.copilot.chat.claudeAgent.enabled": false,
+  "chat.agentHost.allowSignedOutWhenUsable": false,
+  "chat.agentHost.byokModels.enabled": false,
+  "chat.remoteAgentHostsEnabled": false,
+  "chat.remoteSessions.tools.enabled": false,
+  "chat.automations.enabled": false,
+  "chat.agentSessions.showExternal": "none",
+  "sessions.showApplicationBadge": false,
+  "chat.sessionSync.enabled": false,
+  "github.copilot.chat.localIndex.enabled": false,
+  "github.copilot.chat.cli.remote.enabled": false,
+
+  // TOOLS / PLUGINS / SKILLS / HOOKS
+  "chat.extensionTools.enabled": false,
+  "workbench.browser.enableChatTools": false,
+  "chat.sendElementsToChat.enabled": false,
+  "chat.plugins.enabled": false,
+  "chat.plugins.strictMarketplaces": [],
+  "chat.useAgentSkills": false,
+  "chat.useHooks": false,
+  "chat.tools.global.autoApprove": false,
+  "chat.tools.terminal.enableAutoApprove": false,
+
+  // MCP
+  "chat.mcp.access": "none",
+  "chat.mcp.autostart": "never",
+  "chat.mcp.discovery.enabled": {
+    "claude-desktop": false,
+    "copilot": false,
+    "windsurf": false,
+    "cursor-global": false,
+    "cursor-workspace": false
+  },
+  "chat.mcp.apps.enabled": false,
+  "chat.mcp.gallery.enabled": false,
+
+  // VOICE / DICTATION
+  "agents.voice.enabled": false,
+  "dictation.enabled": false,
+  "dictation.experimental.llmCleanup": false,
+
+  // TELEMETRY
+  "telemetry.telemetryLevel": "off",
+  "telemetry.feedback.enabled": false,
+  "telemetry.editStats.details.enabled": false
+}
